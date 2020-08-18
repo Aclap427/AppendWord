@@ -15,8 +15,5 @@ function appendFunction() {
 
 function render() {
     stringEl.innerHTML = wordArray.join(" ");
-    if (wordArray.length === 0) {
-        stringEl.innerHTML = "No Phrase Yet!";
-    };
 
 }
